@@ -6,10 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Page 1</title>
     <link rel="stylesheet" href="./css/stylesheet.css">
-    
+
 </head>
 <body>
-    <h1>Welcome!</h1>
+    <h1>Survey Page 1</h1>
+
+    <form>
+        <fieldset>
+            <legend> Contact information</legend>
+            
+            <label for="fname"> First name*:
+                <input id="fname" type="text" autofocus required>
+            </label>
+            
+            <label for="lname"> Last name*:
+                <input id="lname" type="text" required>
+            </label>
+        
+        <p> </p>
+
+        <div>
+            <label for="email"> Email*:
+                <input id="email" type="email" required>
+            </label>
+        </div>
+        <p> </p>
+        <div>
+            <label for="phoneNumber"> Phone Number (optional):
+                <input id="phoneNumber" type="text">
+            </label>
+        </div>
+        <p> </p>
+        
+            <label for="gender">Gender:
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    <option value="noAnswer">Prefer not to answer</option>
+                </select>
+            </label>
+        <p> </p>
+        <div>
+            <label for="race">Race:
+                <select name="race" id="race">
+                    <option value="white">White</option>
+                    <option value="black">Black</option>
+                    <option value="hispanic">Hispanic</option>
+                    <option value="asian">Asian</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+        </div>
+        </fieldset>
+    </form>
+
 <p>
     <button onclick="window.location.href='./survey2.html';">
     Next Page:
