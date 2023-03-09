@@ -1,1 +1,9 @@
 # DPM_HW7
+
+# For this project I used HTML to create a web form for users to fill out. I set up the structure for how the form will look and what questions it will ask, but I am yet to add code that keeps track of responses.
+
+# When I was working on this assingment I implemented lots of form design best practices into my final product. On the "Survey 1" page, I asked users to enter their contact information in a logical order. I started by asking their first name, then last name, then email, then phone number. This is the order that almost all forms requiring contact information use, and therefore this can fall under best practices. I also made some of the fields on this page mandatory (first name, last name, and email), but left the rest as optional because they were not crucial for the survey.
+
+# On the first page of the survey, I also used the autofocus attribute so that a users cursor would go right to the first input box on the page "first name". Once they are on this input box, this form also allows for them to autofill any contact information they have saved on their browser. For the text describing how to respond to the questions, I didn't use all caps so that the wording would be as easy to read as possible.
+
+# On the "Survey 2" page, I grouped questions together that related to the same topic to make the flow of the survey make more sense. For instance, I grouped the three questions related to what streaming services a user has and prefers all together in the same fieldset. I also used one column for all the questions so that the user doesn't need to shift around the page in order to successfully complete the survey. Finally, I gave the user confirmation that they successfully completed the survey by adding a thank you page at the end, letting them know that their responses have been saved.
